@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "generate": "deno run -A ssg.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.15",
+    "@std/fs": "jsr:@std/fs@^1.0.19",
+    "@std/http": "jsr:@std/http@^1.0.21"
+  }
+}
